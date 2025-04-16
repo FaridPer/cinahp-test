@@ -1,0 +1,54 @@
+/* Contenedor para las noticias dentro de la tarjeta */
+.news-container {
+    display: flex;
+    gap: 10px;
+    flex-wrap: nowrap; /* Asegura que las noticias se mantengan en una sola fila */
+    overflow-x: auto; /* Permite desplazamiento horizontal si el contenido se desborda */
+    scroll-behavior: smooth; /* Desplazamiento suave */
+}
+
+.news-item {
+    flex: 0 0 auto; /* Impide que los elementos se estiren más allá de su tamaño base */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 300px; /* Ajusta el ancho máximo según sea necesario */
+    text-align: left;
+    margin-bottom: 20px; /* Espacio debajo de cada noticia */
+ /* Espacio debajo de cada noticia */
+}
+
+.news-item img {
+    width: 100%; /* Ajusta el ancho para que se ajuste al contenedor */
+    height: 200px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); /* Aumenta el tamaño y opacidad de la sombra */
+}
+
+.news-content {
+    padding: 15px;        /* Aumenta el padding para un mayor espacio alrededor del contenido */
+}
+
+.news-content h3 {
+    color: #5b4f3f;
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.news-content p {
+    color: #4a4a4a;
+    font-size: 14px;
+}
+
+.read-more {
+    display: inline-block;
+    margin-top: 15px;
+    color: #5b4f3f;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.read-more:hover {
+    text-decoration: underline;
+}

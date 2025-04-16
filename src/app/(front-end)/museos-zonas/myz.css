@@ -1,0 +1,118 @@
+.myz-container {
+  display: flex; /* Activar Flexbox */
+  justify-content: space-between; /* Espaciado entre los elementos */
+  padding-bottom: 20px;
+  max-width: 1200px; /* Ancho máximo del contenedor */
+  margin: 0 auto; /* Centrar el contenedor en la página */
+  margin-top: -20px;
+  z-index: 3;
+  padding: 0px 20px;
+  font-family: Geomanist;
+  position: relative;
+  }
+  
+  
+  .myz-container p {
+    text-align: justify;
+    margin-bottom: 15px;
+  }
+  
+  .info-button {
+    background-color: #691C32; /* Color vino */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px; /* Borde redondeado */
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 20px; /* Espacio debajo del botón */
+    text-align: center;
+    display: block;
+    width: fit-content; /* Ajusta el ancho del botón al contenido */
+  }
+  
+ 
+  .img-myz{
+    margin-left:10%;
+    width: 330px;
+  }
+  
+  .content {
+    flex: 1; /* Hacer que el contenido principal ocupe el espacio disponible */
+    padding-right: 20px; /* Espacio a la derecha del contenido */
+    max-width: 815px;
+  }
+  .descripcion-myz{
+    max-width: 700px;
+    text-align: justify;
+    margin-bottom: 15px;
+    
+  }
+  .news-card {
+    background-color: #e7a7474d; /* Color pastel */
+    border-radius: 10px; /* Bordes redondeados */
+    padding: 20px; /* Reduce el espaciado interno */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para profundidad */
+    margin-top: 100px; /* Espacio superior */
+    width: 250px; /* Ancho de la tarjeta */
+    height: 380px; /* Altura fija (ajusta según necesites) */
+    text-align: center; /* Centrar texto */
+    overflow: hidden; /* Ocultar contenido que desborde */
+    flex-direction: column; /* Organizar contenido en columna */
+    justify-content: center; /* Centrar contenido verticalmente */
+  }
+  
+  .news-card h3 {
+    margin-bottom: 15px; /* Espacio inferior */
+  }
+  
+ 
+  .banner-nosotros{
+    display: flex;
+    flex-direction: column;
+    margin: auto; /* Añadido margen superior para empujar el contenido hacia abajo */
+    height: 200px;
+    z-index: 1;
+    overflow: hidden;
+  }
+
+  .info-button {
+    font-family: Patria;
+    background-color: #691C32; /* Color vino */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px; /* Borde redondeado */
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 20px; /* Espacio debajo del botón */
+    text-align: center;
+    display: block;
+    width: fit-content; /* Ajusta el ancho del botón al contenido */
+    margin-left: -25px;
+  }
+
+
+  
+
+
+
+
+.toggle-title {
+    margin-top: 20px;
+    color: #226824; /* Color verde */
+    cursor: pointer; /* Cambia el cursor para indicar que es clickeable */
+}
+
+.toggle-title:hover {
+    text-decoration: underline; /* Subrayar al pasar el mouse */
+}
+
+@media (max-width:858px) {
+  .myz-container{
+      flex-direction: column;
+  }
+
+}

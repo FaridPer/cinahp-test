@@ -1,0 +1,84 @@
+@import url('../app/(front-end)/fuentes.css');
+
+.news-card-mod {
+    background-color: #DFCDB7; /* Color pastel */
+    border-radius: 10px; /* Bordes redondeados */
+    padding: 20px; /* Espacio interno */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para profundidad */
+    margin-top: 100px; /* Espacio superior */
+    width: 300px; /* Ancho de la tarjeta */
+    height: 380px; /* Altura fija (ajusta según necesites) */
+    text-align: center; /* Centrar texto */
+    overflow: hidden; /* Ocultar contenido que desborde */
+    flex-direction: column; /* Organizar contenido en columna */
+    justify-content: center; /* Centrar contenido verticalmente */
+    margin-left: 25px;
+}
+.news-button-mod {
+    font-family: Patria;
+    font-weight: bold;
+    background-color: #691C32; /* Color de fondo del botón de noticias */
+    color: white; /* Color del texto del botón */
+    border: none; /* Sin bordes */
+    padding: 10px 15px; /* Espacio interno */
+    border-radius: 20px; /* Bordes redondeados */
+    cursor: pointer; /* Cambiar cursor al pasar sobre el botón */
+    font-size: 16px; /* Tamaño de fuente */
+    margin-bottom: 10px;
+}
+
+
+.news-item-mod {
+    display: flex;
+    align-items: flex-start; /* Alinea la imagen y el contenido en la parte superior */
+    gap: 10px; /* Espacio entre la imagen y el contenido */
+    max-width: 300px; /* Ajusta según necesites */
+    text-align: left;
+    margin-bottom: 20px;
+    margin-right: 5px;
+}
+.news-item-mod img {
+    height: 110px; /* Ajusta el ancho según lo necesites */
+    width: 80px;
+    flex-shrink: 0; /* Evita que la imagen se reduzca */
+    border-radius: 5px; /* Bordes redondeados (opcional) */
+    object-fit: cover; /* Recorta la imagen para llenar el espacio sin deformarse */
+    margin-top: 2px;
+}
+
+.news-container-mod {
+    margin-top: 6px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column; /* Alinea las noticias de forma vertical */
+    overflow-y: auto; /* Permite el desplazamiento vertical */
+    scroll-behavior: smooth; /* Desplazamiento suave */
+    max-height: 300px; /* Ajusta la altura máxima para que se pueda hacer scroll */
+}
+
+.news-content-mod {
+    flex: 1; /* Permite que el contenido tome el espacio restante */
+    padding: 0; /* Remueve el padding si es necesario */
+}
+
+.news-content-mod h4 {
+    color: #000000;
+    font-size: 18px;
+    margin: 0px;
+}
+
+.news-content-mod p {
+    color: #4a4a4a;
+    font-size: 14px;
+    text-align: left;
+    margin-top: 6px;
+    margin-bottom: 3px;
+}
+.read-more-mod {
+    display: inline-block;
+    margin-top: 5px;
+    color: #5b4f3f;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 13px;
+}

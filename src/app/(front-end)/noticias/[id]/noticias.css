@@ -1,0 +1,87 @@
+
+.news-container {
+    display: flex; /* Activar Flexbox */
+    justify-content: space-between; /* Espaciado entre los elementos */
+    padding-bottom: 20px;
+    max-width: 1200px; /* Ancho máximo del contenedor */
+    margin: 0 auto; /* Centrar el contenedor en la página */
+    z-index: 3;
+    padding: 0px 20px;
+    font-family: Geomanist;
+    position: relative;
+    flex-direction: column;
+}
+
+.news-item {
+    flex: 0 0 auto; /* Impide que los elementos se estiren más allá de su tamaño base */
+    display: flex;
+    flex-direction: row;
+    max-width: 1200px; /* Ajusta el ancho máximo según sea necesario */
+    text-align: left;
+    margin-bottom: 20px; /* Espacio debajo de cada noticia */
+    height: 170px;
+}
+
+.news-item img {
+    width: 20%; /* Ajusta el ancho para que se ajuste al contenedor */
+    height: 170px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    object-fit: cover;
+}
+
+.news-content {
+    padding-left: 15px;        /* Aumenta el padding para un mayor espacio alrededor del contenido */
+    height: 170px;
+}
+
+.news-content h4 {
+    color: #661818;
+    font-size: 21px;
+    margin: 0;
+}
+
+.news-content p {
+    color: #4a4a4a;
+    font-size: 15px;
+    max-width: 925px;
+    margin-top: 5px;
+}
+
+.read-more {
+    display: inline-block;
+    color: #5b4f3f;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.read-more:hover {
+    text-decoration: underline;
+}
+
+.info-button {
+    font-family: Patria;
+    background-color: #691C32; /* Color vino */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px; /* Borde redondeado */
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 20px; /* Espacio debajo del botón */
+    text-align: center;
+    display: block;
+    width: fit-content; /* Ajusta el ancho del botón al contenido */
+    margin-left: -25px;
+  }
+
+.banner-nosotros{
+    display: flex;
+    flex-direction: column;
+    margin: auto; /* Añadido margen superior para empujar el contenido hacia abajo */
+    height: 200px;
+    z-index: 1;
+    overflow: hidden;
+  }

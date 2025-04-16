@@ -1,0 +1,43 @@
+#footer{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    margin-top: 100px;            
+}
+.footer-logos {
+    display: flex;
+    justify-content: center; /* Centra los logos horizontalmente */
+    align-items: center; /* Centra los logos verticalmente */
+    gap: 20px; /* Espacio entre los logos */
+    background-color: #ebe3e3;
+    padding: 20px;
+}
+
+.footer-logo-cul {
+    height: 70px;
+}
+
+.footer-logo-an{
+    height: 30px;
+}
+
+/* Sección de color debajo de los logos */
+.footer-bottom {
+    background-color: #e8ca9e;
+    padding: 10px 30px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin-top: 0;
+}
+.footer-bottom p{
+    font-size: 15px;
+    text-align: right;
+}
+
+@media (max-width:858px) {
+    #footer{
+        position: relative;
+    }
+  
+  }

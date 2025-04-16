@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'Geomanist';
+    src: url('/fonts/Geomanist-Black.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap; /* Mejora la carga de la fuente */
+}
+
+@font-face {
+    font-family: 'Geomanist';
+    src: url('/fonts/Geomanist-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Geomanist';
+    src: url('/fonts/Geomanist-Regular-Italic.otf') format('opentype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Patria';
+    src: url('/fonts/Patria_Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Patria';
+    src: url('/fonts/Patria_Bold.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal; /* Añadir el estilo */
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Patria';
+    src: url('/fonts/Patria_Light.otf') format('opentype');
+    font-weight: lighter; /* Usa el valor específico del peso ligero */
+    font-style: normal;
+    font-display: swap;
+}
